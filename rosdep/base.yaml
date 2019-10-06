@@ -4239,6 +4239,14 @@ msgpack:
   fedora: [msgpack-devel]
   gentoo: [dev-libs/msgpack]
   ubuntu: [libmsgpack-dev]
+msgpack-python:
+  ubuntu:
+    xenial:
+      pip:
+        packages: [msgpack-python]
+    bionic:
+      pip:
+        packages: [msgpack-python]
 muparser:
   debian: [libmuparser-dev]
   fedora: [muParser-devel]
